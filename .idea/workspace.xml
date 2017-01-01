@@ -23,7 +23,7 @@
       <file leaf-file-name="part1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment 1/part1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="540">
               <caret line="36" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
               <folding />
             </state>
@@ -33,18 +33,28 @@
       <file leaf-file-name="part2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment 1/part2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="705">
+              <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="part3.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="part3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment 1/part3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="part1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assignment2/part1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -69,6 +79,7 @@
         <option value="$PROJECT_DIR$/part2.html" />
         <option value="$PROJECT_DIR$/Assignment 1/part2.html" />
         <option value="$PROJECT_DIR$/Assignment 1/part3.html" />
+        <option value="$PROJECT_DIR$/Assignment2/part1.html" />
       </list>
     </option>
   </component>
@@ -79,8 +90,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="283" />
-    <option name="y" value="115" />
+    <option name="x" value="383" />
+    <option name="y" value="80" />
     <option name="width" value="894" />
     <option name="height" value="710" />
   </component>
@@ -102,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -125,13 +137,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Assignment 1" />
+              <option name="myItemId" value="Assignment2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,15 +241,16 @@
       <option name="presentableId" value="Default" />
       <updated>1483145043169</updated>
       <workItem from="1483145045680" duration="4414000" />
-      <workItem from="1483202348726" duration="3855000" />
+      <workItem from="1483202348726" duration="4254000" />
+      <workItem from="1483288252236" duration="1649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8269000" />
+    <option name="totallyTimeSpent" value="10317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="283" y="115" width="894" height="710" extended-state="0" />
+    <frame x="383" y="80" width="894" height="710" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20022371" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -278,6 +290,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment 1/part1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -287,7 +307,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 1/part1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="540">
           <caret line="36" column="45" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
           <folding />
         </state>
@@ -295,16 +315,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 1/part2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="705">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment 1/part3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="52" column="22" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state relative-caret-position="420">
+          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment2/part1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
