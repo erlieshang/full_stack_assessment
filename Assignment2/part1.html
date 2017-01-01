@@ -7,9 +7,9 @@
 <body onload="do_game()">
 <script>
     var colors = ["blue", "cyan", "gold", "gray", "green", "magenta", "orange", "red", "white", "yellow"];
+    var target_index = Math.floor(Math.random() * colors.length);
+    var target = colors[target_index];
     function do_game(){
-        var target_index = Math.floor(Math.random() * colors.length);
-        var target = colors[target_index];
         var finished = false;
         alert("I'm choosing " + target);
         do {
