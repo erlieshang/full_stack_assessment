@@ -23,8 +23,11 @@
             alert("Your input is alphabetically lower than mine!");
             return false;
         }
-        else
+        else {
+            myBody = document.getElementsByTagName("body")[0];
+            myBody.style.backgroundColor = target;
             return true;
+        }
     }
     function do_game() {
         var finished = false;
@@ -36,9 +39,10 @@
             finished = check_guess(guess_input);
             guessing_time ++;
         } while(!finished);
-        myBody = document.getElementsByTagName("body")[0];
-        myBody.style.backgroundColor = target;
-        alert("You're right! You took " + guessing_time + " guesses");
+
+        setTimeout(function () {
+            alert("You're right! You took " + guessing_time + " guesses");
+        }, 5);
     }
 </script>
 </body>
