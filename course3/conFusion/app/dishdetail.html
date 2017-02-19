@@ -47,9 +47,8 @@
                 <ul class="list-unstyled">
                     <li ng-repeat="comment in dish.comments | orderBy: criteria">
                         <blockquote>
-                            <p>{{comment.rating}} stars
-                                {{comment.comment}}
-                            </p>
+                            <p>{{comment.rating}} stars</p>
+                            <p>{{comment.comment}}</p>
                             <footer>{{comment.author}}, {{comment.date | date:'medium'}}</footer>
                         </blockquote>
                     </li>
@@ -59,9 +58,8 @@
                 <ul class="list-unstyled" ng-show="commentForm.$valid && !commentForm.name.$pristine">
                     <li>
                         <blockquote>
-                            <p>{{comment.rating}} stars
-                                {{comment.comment}}
-                            </p>
+                            <p>{{comment.rating}} stars</p>
+                            <p>{{comment.comment}}</p>
                             <footer>{{comment.author}}, {{comment.date | date:'medium'}}</footer>
                         </blockquote>
                     </li>
