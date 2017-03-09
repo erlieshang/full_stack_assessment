@@ -129,8 +129,8 @@ angular.module('conFusion.controllers', [])
         };
 
         $cordovaImagePicker.getPictures(options)
-          .then(function (result) {
-            $scope.registration.imgSrc = "data:image/jpeg;base64," + result;
+          .then(function (results) {
+            $scope.registration.imgSrc = results[0];
           }, function(error) {
             // error getting photos
             console.log(error);
@@ -361,9 +361,9 @@ angular.module('conFusion.controllers', [])
   }])
 
   .controller('FavoritesController', ['$scope', 'dishes', 'favorites', 'favoriteFactory', 'baseURL',
-    '$ionicListDelegate', '$ionicPopup', '$cordovaVibration',
+    '$ionicListDelegate', '$ionicPopup', '$ionicPlatform', '$cordovaVibration',
     function ($scope, dishes, favorites, favoriteFactory, baseURL, $ionicListDelegate,
-              $ionicPopup, $cordovaVibration) {
+              $ionicPopup, $ionicPlatform, $cordovaVibration) {
       $scope.baseURL = baseURL;
       $scope.shouldShowDelete = false;
       $scope.favorites = favorites;
@@ -386,7 +386,9 @@ angular.module('conFusion.controllers', [])
           if (res) {
             console.log('Ok to delete');
             favoriteFactory.deleteFromFavorites(index);
-            $cordovaVibration.vibrate(1000);
+            $ionicPlatform.ready(function () {
+              $cordovaVibration.vibrate(1000);
+            });
           } else {
             console.log('Canceled delete');
           }
